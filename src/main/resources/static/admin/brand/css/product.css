@@ -1,0 +1,76 @@
+
+header .active2 {
+	background-color: #fff;
+	color: #333;
+}
+header .active2:hover {
+	background-color: #808080;
+	color: #fff;
+}
+
+header .active1 {
+	background-color: #808080;
+	color: #fff;
+}
+header .active1:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.search-area {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f3f1f1;
+    margin-bottom: 10px;
+}
+
+.search-product {
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.search-product__name {
+	width: 22%;
+	display: flex;
+	align-items: center;
+}
+
+.search-product__price {
+	width: 55%;
+	display: flex;
+	align-items: center;
+}
+
+.btn-search {
+	display: flex;
+}
+
+.btn-search .rs:hover{
+	background-color: #28a745;
+}
+
+.price {
+	width: 33%;
+	margin: 0 0px 0 0;
+	padding: 0 11px;
+}
+
+.price-labe {
+	width: 13%;
+	font-weight: 600;
+	margin: 0 0 0 25px;
+}
+
+.price-labe-from {
+	margin: 0 20px 0 0px;
+}
+
+#searchByPrice {
+	margin-right: 10px;
+}
+
+#searchByPrice:hover{
+	background-color: #0000ff;
+}
